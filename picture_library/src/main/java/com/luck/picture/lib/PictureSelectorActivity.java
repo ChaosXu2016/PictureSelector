@@ -68,8 +68,8 @@ import com.luck.picture.lib.tools.ToastUtils;
 import com.luck.picture.lib.tools.ValueOf;
 import com.luck.picture.lib.widget.FolderPopWindow;
 import com.luck.picture.lib.widget.RecyclerPreloadView;
-import com.yalantis.ucrop.UCrop;
-import com.yalantis.ucrop.model.CutInfo;
+import com.safeway.ucrop.UCrop;
+import com.safeway.ucrop.model.CutInfo;
 
 import org.jetbrains.annotations.NotNull;
 

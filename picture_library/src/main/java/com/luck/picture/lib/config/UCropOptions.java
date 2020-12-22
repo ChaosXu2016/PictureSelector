@@ -3,7 +3,7 @@ package com.luck.picture.lib.config;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.yalantis.ucrop.UCrop;
+import com.safeway.ucrop.UCrop;
 
 /**
  * @author：luck
