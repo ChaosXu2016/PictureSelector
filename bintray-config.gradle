@@ -1,0 +1,39 @@
+ext {
+    //bintray 网站上你创建的仓库的名字（必配项），其值需与自己在 JCenter 上创建的 Repository 的名字一致
+    bintrayRepo = 'PictureSelector'
+    //在这个仓库下的 package name（必配项），其值需与自己在 JCenter 上创建的 Repository 下的 package 的名字一致
+    bintrayName = 'PictureSelector'
+    //以上两项是必配的指向 Bintray 网站上你的仓库名和仓库下的 package 名
+
+    //以下三项均为必配项
+    //publishedGroupId:artifact:libraryVersion 构成你开源库的唯一路径
+    //对本 demo：com.github.xiaofeidev:hello:1.0.0，在模块的build.gradle里就可以根据这个路径来 implementation 了
+    publishedGroupId = 'com.github.ChaosXu2016'
+    artifact = 'PictureSelector'
+    libraryVersion = "1.0.0"
+
+    //对开源库的描述描述信息
+    libraryName = 'PictureSelector'
+    libraryDescription = 'PictureSelector 重命名ucrop包名避免冲突'
+    siteUrl = 'https://github.com/ChaosXu2016/PictureSelector'
+
+    //开源库对应的 github 地址
+    gitUrl = 'https://github.com/ChaosXu2016/PictureSelector.git'
+
+    //开发者信息
+    developerId = 'ChaosXu2016'
+    developerName = 'ChaosXu2016'
+    developerEmail = 'chaos_hf@yeah.net'
+
+    //开源协议
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+
+    //打包&上传用到的 gradle 命令
+//    gradlew install
+//    gradlew bintrayUpload
+
+//    gradlew install 用于将项目编译、打包生成 pom，aar 等文件；
+//    gradlew bintrayUpload 用于将生成的 pom，aar 等文件上传至 bintray 仓库中；
+}

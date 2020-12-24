@@ -39,3 +39,7 @@ dependencies {
     implementation "androidx.camera:camera-view:${cfgs.camerax_view}"
     api project(':ucrop')
 }
+
+apply from: '../bintray-config.gradle'
+apply from: '../installv1.gradle'
+apply from: '../bintrayv1.gradle'
